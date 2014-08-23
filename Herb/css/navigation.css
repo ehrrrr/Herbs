@@ -1,0 +1,26 @@
+nav { padding-bottom: 2em; position: absolute; left: 5%; top: 30%; }
+nav ul { margin: 0; padding: 0; }
+nav ul:after { display: block; content: ''; height: 1px; clear: both; }
+nav ul li { display: block; list-style: none outside; position: relative; }
+
+nav > ul { margin-top: 20px; }
+nav > ul ul { display: none; position: absolute; left:0; top: 100%;  }
+nav > ul > li { margin-right: 5px; }
+nav li:hover > ul { display: block; }
+
+nav > ul {  }
+nav > ul > li { float: left;}
+.nav-toggle,
+nav > ul > li > a { border-radius: 6px; }
+
+nav > ul > li ul { padding: 5px 0 0 0; width: 140px; }
+nav > ul > li li:first-child a { border-top-left-radius: 6px; border-top-right-radius: 6px; }
+nav > ul > li li:last-child a { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+
+nav > ul > li > ul > li ul { left: 100%; top: 0; padding: 0 0 0 5px; }
+nav > ul > li { float: left; }
+
+.nav-toggle,
+nav ul li a { display: block; background: #090; color: #FFF; padding: 5px 10px;}
+.nav-toggle:hover,
+nav ul li a:hover { background: #030; }

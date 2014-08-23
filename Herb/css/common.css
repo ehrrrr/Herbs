@@ -1,0 +1,59 @@
+body {
+    background: #090;
+    padding: 20px;
+}
+
+.container, .header, .main, .footer {
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    padding: 20px; 
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.header, .footer {
+    background: rgba(255, 255, 255, 1);
+    color: #FFF;
+    box-shadow: 0 0 15px #FFF;
+}
+
+.content, .sidebar {
+	padding: 0;
+    overflow: hidden;
+}
+
+.container {
+     position: relative;   
+}
+
+.header {
+    height: 20em;
+    background-image: url(../images/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.main {
+	background: rgba(255, 255, 255, 1);
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.sidebar {
+	width: 30%;
+	float: left;
+}
+
+.inner {
+	padding: 20px;
+}
+
+h1 {
+    padding-top: 1em;,
+    text-align: center;
+    text-shadow: 4px 4px 2px #000;
+}
