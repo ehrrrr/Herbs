@@ -1,6 +1,6 @@
 body {
     background: #090;
-    padding: 20px;
+    background: url('images/inner.png') repeat-x scroll 0% 0% #000;  
 }
 
 .container, .header, .main, .footer {
@@ -20,6 +20,10 @@ body {
 .content, .sidebar {
 	padding: 0;
     overflow: hidden;
+}
+
+.page {
+     padding: 20px;
 }
 
 .container {
