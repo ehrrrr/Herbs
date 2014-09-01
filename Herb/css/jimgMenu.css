@@ -1,13 +1,13 @@
 .jimgMenu {
 	position:relative;
-	margin: 0px 0px 0px 50px;
+	margin: 0 0 0 0;
 	padding: 0px;
 	width: 90%;
 	height:100%;
 	overflow: hidden;
     background: url('../images/inner.png') repeat scroll 0% 0% #222;
     color: #FFF;
-    padding: 2em;
+    padding: 1em 2em 1em 2em;
 }
 .jimgMenu ul {
 	list-style: none;
@@ -27,10 +27,9 @@
 	text-indent: -1000px;
 	background:#000 repeat scroll 0%;
     border: 1px solid #000;
-	border-right: 2px solid #000;
-    border-radius: 10px;
 	cursor:pointer;
 	display:block;
+    margin: 0 auto;
 	overflow: hidden;
 	height: 200px;
 }

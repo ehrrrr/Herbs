@@ -1,0 +1,53 @@
+.list-news {}
+
+a {text-decoration: none;}
+
+.list-news > li { 
+    list-style-type: none; 
+    list-style-position: outside; 
+    overflow: hidden; 
+    display: block; 
+    width: 95%;
+    padding: 2em 1em;
+    box-shadow: 0 8px 6px -6px #777;
+}
+
+.list-news > li:last-child{ 
+    border: none;
+    box-shadow: none;
+}
+
+.text-holder {
+    width: 80%;
+}
+
+.img-holder {
+    margin-right: 1em;
+}
+
+.text-holder > p {
+    width: 100%;
+
+}
+
+.img-holder, .text-holder {
+    float: left;
+}
+
+.news-cover {
+    width: 8em;
+    height: 8em;
+    border: solid 1px #CCC;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.8), inset 0 20px 0 rgba(255,255,255,0.5), inset 0 -5px 0 rgba(0,0,0,0.4);
+	border-radius: 20px;
+}
+
+a:hover img.news-cover {
+    box-shadow: 2px 2px 15px #333;
+}
+
+.date {
+    color: #666;
+    font-style: italic;
+    font-size: 0.7em;
+}

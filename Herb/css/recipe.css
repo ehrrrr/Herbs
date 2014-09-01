@@ -1,0 +1,12 @@
+.recipe{
+  overflow: hidden;
+}
+
+.cover {
+    height: 15%;
+    width: 15%;
+}
+
+.rec {
+    float: left;
+}

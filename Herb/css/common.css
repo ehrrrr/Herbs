@@ -53,17 +53,16 @@ body {
 .main {
 	background: rgba(255, 255, 255, 1);
     overflow: hidden;
-    clear: both;
 }
 
+.content, .sidebar {float: left;}
+
 .content {
-	width: 70%;
-	float: left;
+	width: 80%;
 }
 
 .sidebar {
-	width: 30%;
-	float: left;
+	width: 20%;
 }
 
 .inner {
