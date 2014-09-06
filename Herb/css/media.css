@@ -1,0 +1,109 @@
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-width : 1670px) {
+    body{ margin: 1em 15% 0 15%;}
+}
+
+@media only screen 
+and (max-width : 1370px) {
+	#page { width: auto; margin: 0; }
+	.sidebar { width: 30%;}
+	.content { width: 70%; }
+}
+
+@media only screen 
+and (max-width : 1370px) {
+        body{    margin: 1em 7% 0 7%;}
+}
+
+@media only screen 
+and (max-width : 920px) {
+
+	#page { width: auto; margin: 0; }
+	.sidebar, .content { float: none; width: auto; }
+    
+    
+
+}
+
+@media only screen 
+and (max-width : 780px) {
+    body{    margin: auto;}
+}
+
+
+
+@media only screen 
+and (max-width : 740px) {
+
+   .search {
+       width: 50%;
+   }
+    
+    .serchForm {
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        margin-right: -40px;
+    }
+}
+
+@media only screen 
+and (max-width : 640px) {
+    body {font-size: 12px;}
+    .header {height: 15em;}
+    h1 {
+        text-align: center;
+        position: relative;
+        color: #fff;    
+        margin: 5% -15px 0 -15px;
+        padding: 5px 0; 
+        text-shadow: 0 1px rgba(0,0,0,.8);
+        background-color: #222;
+        background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+        -moz-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+        box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    }
+
+    h1:before, h1:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-color: transparent;
+        bottom: -5px;
+    }
+    
+    .serchForm {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+    }
+}
+
+@media only screen 
+and (max-width : 570px) {
+    .header {height: 10em;}
+
+}
+
+@media all and (max-width: 540px) {
+    h1{display: none}
+	#page { width: auto; margin: 0; }
+	.sidebar, .content { float: none; width: auto; }
+
+	nav > ul > li { float: none; width: auto; margin: 0; }
+	nav > ul > li > a { border-radius: 0; }
+
+	.nav-toggle.active { margin-bottom: 0; background: #666; color: #FFF; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+}
+
+@media only screen 
+and (max-width : 340px) {
+       .search {
+       width: 25%;
+   }
+    .serchForm {
+        margin-right: -90px;
+    }
+}

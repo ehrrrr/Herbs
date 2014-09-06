@@ -1,0 +1,6 @@
+nav-collapse > ul {  height: auto; }
+nav-collapse > ul > li {  float: none; width: 100%; }
+nav-collapse > ul a { line-height: 40px; }
+nav-collapse > ul ul { position: relative; }
+nav-collapse > ul li:hover { background: #555;  }
+nav-collapse > ul li:hover ul { display: block;  }

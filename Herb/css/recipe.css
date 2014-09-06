@@ -1,12 +1,32 @@
-.recipe{
-  overflow: hidden;
+.recipe-title {
+    padding-bottom: 1em;
 }
 
-.cover {
-    height: 15%;
-    width: 15%;
+.recipe-img {
+    width: 50%;
+    padding-right: 2em;
 }
 
-.rec {
+.recipe-img, list-recipe {
     float: left;
+}
+
+.inner {
+    overflow: hidden;   
+}
+
+.list-recipe > li:before {
+    display: inline-block; 
+    content: '\f118'; 
+    font-family: FontAwesome;
+    padding-right: 1em; 
+    color: #000;
+}
+
+.list-recipe > li:hover {
+    text-shadow: 2px 2px 1em #444;
+}
+
+.list-recipe > li:hover:before {
+    color: #090;
 }

@@ -1,0 +1,22 @@
+
+form { border: 1px solid #CCC; padding: 2em; }
+
+form .input input,
+form .input textarea,
+form .input select,
+form .input label { display: block; }
+
+form .input label { font-weight: bold; }
+
+form .input input,
+form .input textarea { border: 1px solid #CCC; width: 100%; border-radius: 4px; padding: 0.2em 0.5em; }
+form .input input:focus,
+form .input textarea:focus { border-color: color: #090; }
+form .input input:focus + .error,
+form .input textarea:focus + .error { display: none; }
+
+form .button { display: block; border: none; padding: 0.5em 1em; background-color: #444; color: #FFF; cursor: pointer; border-radius: 4px; margin-bottom: 1em; }
+form .button:hover { background-color: #090; }
+
+form .buttons { overflow: hidden; }
+form .buttons .button { float: left; margin-right: 1em; margin-bottom: 0; }
